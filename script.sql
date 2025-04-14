@@ -19,6 +19,13 @@ create table Cliente(
     EmailCli varchar(50) not null
 );
 
+create table Produto(
+	CodProd int primary key auto_increment,
+    NomeProd varchar(50),
+    DescriProd varchar(200),
+    ValorProd float
+);
+
 -- CRIANDO AS CONSULTAS
 select * from Usuario;
 select * from Cliente;
